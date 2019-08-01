@@ -111,6 +111,7 @@ function List(item) {
         item.productName
       }</span></p> <ul><li>price: € ${item.productPrice}</li></ul>
       </div>
+
       <button class="cart-button" onclick="remove(this, true)" type="button">
         X
       </button>
